@@ -1,13 +1,13 @@
-Advanced Time Series Forecasting Project
+# Advanced Time Series Forecasting Project
 
-Overview
+# Overview
 This project demonstrates advanced time series forecasting using Facebook Prophet, external regressors, and hyperparameter optimization with Optuna.  
 A synthetic dataset is generated to simulate real-world scenarios with trend, seasonality, marketing spend, and macroeconomic indicators.  
 The workflow includes baseline modeling, optimized forecasting, performance comparison, and cross-validation.
 
 ---
 
-Features
+# Features
 - Synthetic dataset creation with trend, weekly, yearly seasonality, and external regressors.
 - Baseline Prophet model vs Optimized Prophet model.
 - Hyperparameter tuning using Optuna.
@@ -16,14 +16,14 @@ Features
 - Clear visualizations comparing actual vs forecasted values.
 
 ---
-Requirements
+# Requirements
 Install dependencies before running the notebook:
 
 `bash
 pip install prophet scikit-learn optuna matplotlib pandas numpy
 `
 ---
-Workflow
+# Workflow
 1. Generate Synthetic Dataset  
    - Trend, weekly, yearly seasonality  
    - External regressors: marketing spend, macro index  
@@ -62,14 +62,14 @@ Workflow
 
 ---
 
- Results
+ # Results
 | Model      | MAE   | RMSE  |
 |------------|-------|-------|
 | Baseline   | 7.38  | 9.42  |
 | Optimized  | 4.01  | 5.01  |
 
 ---
-Conclusion
+# Conclusion
 
 This project successfully demonstrates how advanced time series forecasting can be enhanced by incorporating external regressors and hyperparameter optimization.  
 
